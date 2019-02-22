@@ -980,7 +980,7 @@ def cli_fullRun(year, dbname, name):
                 display('Trying to get data for {}, {}'.format(name, year))
                 get_all(name, dbname=dbname, year=year )
         except:
-            display('Hmm... something went wrong...\nCheck rally name by running: wrc_rallies {}'.foramt(year))
+            display('Hmm... something went wrong...\nCheck rally name by running: wrc_rallies {}'.format(year))
             # TO DO - also check stages? Can we get a stage list?
 
 @click.command()
