@@ -21,6 +21,10 @@ Options:
   --dbname TEXT   SQLite database name
   --help          Show this message and exit.
 
+COMMAND:
+
+  fetch    Fetches all of the data for the given championship.
+
 ```
 
 ```
