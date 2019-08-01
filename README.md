@@ -60,6 +60,8 @@ Options:
   --year INTEGER  Year results are required for (defaults to current year)
   --dbname TEXT   SQLite database name
   --help          Show this message and exit.
+
+NAME:  Should be the name of a rally stage. e.g. mexico
   ```
   
   ```

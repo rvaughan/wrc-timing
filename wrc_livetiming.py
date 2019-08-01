@@ -979,7 +979,8 @@ def cli_fullRun(year, dbname, name):
             for name in listRallies2():
                 display('Trying to get data for {}, {}'.format(name, year))
                 get_all(name, dbname=dbname, year=year )
-        except:
+        except Exception as e:
+            print(e)
             display('Hmm... something went wrong...\nCheck rally name by running: wrc_rallies {}'.format(year))
             # TO DO - also check stages? Can we get a stage list?
 
